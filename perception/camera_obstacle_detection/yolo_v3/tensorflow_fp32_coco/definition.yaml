@@ -14,14 +14,14 @@ network_parameters:
       description: Camera Image RGB
       shape:
         - 1
-        - 608
-        - 608
         - 3
+        - 608
+        - 608
   output_nodes:
     - name: 106_convolutional
       description:
       shape:
         - 1
-        - 76
-        - 76
         - 255
+        - 76
+        - 76

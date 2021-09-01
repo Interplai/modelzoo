@@ -43,12 +43,12 @@
 #define NETWORK_INPUT_WIDTH 608
 #define NETWORK_INPUT_HEIGHT 608
 #define NETWORK_INPUT_DEPTH 3
-#define NETWORK_INPUT_NAME "input"
+#define NETWORK_INPUT_NAME "000_net"
 
 // network output dimensions
-#define NETWORK_OUTPUT_HEIGHT 13
-#define NETWORK_OUTPUT_WIDTH 13
-#define NETWORK_OUTPUT_DEPTH 425
+#define NETWORK_OUTPUT_HEIGHT 76
+#define NETWORK_OUTPUT_WIDTH 76
+#define NETWORK_OUTPUT_DEPTH 255
 
 // minimum confidence score by which to filter the output detections
 #define SCORE_THRESHOLD 0.6
